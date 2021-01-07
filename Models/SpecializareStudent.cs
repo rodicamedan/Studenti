@@ -13,5 +13,6 @@ namespace Studenti.Models
         public int IDSpecializare { get; set; }
         public Specializare Specializare { get; set; }
 
+
     }
 }

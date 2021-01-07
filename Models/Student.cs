@@ -23,6 +23,7 @@ namespace Studenti.Models
         public int IDFacultate { get; set; }
         public Facultate Facultate { get; set; }
         public ICollection<SpecializareStudent> SpecializareStudenti { get; set; }
+        public ICollection<SpecializareStudent> Specializare { get; set; }
 
     }
 }
